@@ -20,9 +20,9 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB           &kp Q  &kp W  &kp E       &kp R      &kp T        &kp Y          &kp U       &kp I      &kp O    &kp P       &kp ESCAPE
-&kp LEFT_SHIFT    &kp A  &kp S  &kp D       &kp F      &kp G        &kp H          &kp J       &kp K      &kp L    &kp SEMI    &kp SQT
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C       &kp V      &kp B        &kp N          &kp M       &kp COMMA  &kp DOT  &kp ESCAPE  &to 3
+&kp TAB           &kp Q  &kp W  &kp E       &kp R      &kp T        &kp Y          &kp U       &kp I      &kp O    &kp P     &kp ESCAPE
+&kp LEFT_SHIFT    &kp A  &kp S  &kp D       &kp F      &kp G        &kp H          &kp J       &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C       &kp V      &kp B        &kp N          &kp M       &kp COMMA  &kp DOT  &kp TAB   &to 3
                                 &kp RETURN  &kp LSHFT  &kp SPACE    &kp BACKSPACE  &kp DELETE  &to 1
             >;
         };
@@ -36,7 +36,7 @@
 
             bindings = <
 &trans      &kp TAB  &trans             &trans                &trans                 &trans          &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0        &kp BSPC
-&bt BT_CLR  &trans   &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION    &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS      &trans
+&bt BT_CLR  &kp SQT  &kp DOUBLE_QUOTES  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION    &kp MINUS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS      &trans
 &kp LSHFT   &trans   &trans             &trans                &trans                 &trans          &kp SLASH  &kp N7        &kp N8        &kp N9        &kp ASTERISK  &trans
                                         &kp LGUI              &to 0                  &kp SPACE       &kp RET    &to 2         &kp RALT
             >;
